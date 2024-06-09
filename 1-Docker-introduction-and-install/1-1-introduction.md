@@ -1,7 +1,7 @@
 # 容器技术介绍
 
 - 容器不等於 docker; Docker 是容器的一種實現.
-![alt text](./assets/image.png)
+![alt text](./assets/1-1.png)
   - docker != container
   - 容器有其他的實現
 
