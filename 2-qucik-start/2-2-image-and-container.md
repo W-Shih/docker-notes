@@ -1,4 +1,4 @@
-<!-- This md file is converted from onenote -->
+<!-- This md file is originally converted from onenote -->
 
 # [镜像和容器](https://dockertips.readthedocs.io/en/latest/container-quickstart/image_vs_container.html)
 
