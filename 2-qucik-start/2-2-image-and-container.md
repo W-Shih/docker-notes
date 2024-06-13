@@ -44,7 +44,7 @@
       <tr class="header">
         <th>
           <p><img src="assets/001_镜像和容器_001.png"  /></p>
-          <p> </p>
+          <p> </p>
         </th>
       </tr>
     </thead>
@@ -52,7 +52,7 @@
       <tr class="odd">
         <td>
           <p><img src="assets/001_镜像和容器_002.png"  /></p>
-          <p> </p>
+          <p> </p>
         </td>
       </tr>
     </tbody>

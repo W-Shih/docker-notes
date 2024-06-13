@@ -17,38 +17,44 @@
 
 - `$ docker version`
 
-    <table>
+  <table>
     <colgroup>
-    <col style="width: 100%" />
+      <col style="width: 100%" />
     </colgroup>
     <thead>
-    <tr class="header">
-    <th><p><img src="assets/image001.png" /></p>
-    <ul class="incremental">
-    <li><p>Amd64 是 intel 架構</p></li>
-    </ul></th>
-    </tr>
+      <tr class="header">
+        <th>
+          <p><img src="assets/image001.png" /></p>
+          <ul class="incremental">
+            <li>
+              <p>Amd64 是 intel 架構</p>
+            </li>
+          </ul>
+        </th>
+      </tr>
     </thead>
     <tbody>
     </tbody>
-    </table>
+  </table>
 
 ### docker info [[↑](#认识一下docker的命令行)]
 
 - `$ docker info`
 
     <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p><img src="assets/image002.png" /></p>
-    <p> </p></th>
-    </tr>
-    </thead>
-    <tbody>
-    </tbody>
+      <colgroup>
+        <col style="width: 100%" />
+      </colgroup>
+      <thead>
+        <tr class="header">
+          <th>
+            <p><img src="assets/image002.png" /></p>
+            <p> </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
     </table>
 
 ### docker [[↑](#认识一下docker的命令行)]
@@ -60,17 +66,19 @@
     - 一級命令一般是指定欲操作的對象. e.g. `container`, `image`, `volume`, etc
 
         <table>
-        <colgroup>
-        <col style="width: 100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th><p><img src="assets/image003.png" /></p>
-        <p> </p></th>
-        </tr>
-        </thead>
-        <tbody>
-        </tbody>
+          <colgroup>
+            <col style="width: 100%" />
+          </colgroup>
+          <thead>
+            <tr class="header">
+              <th>
+                <p><img src="assets/image003.png" /></p>
+                <p> </p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
         </table>
 
 ### docker container [[↑](#认识一下docker的命令行)]
@@ -90,15 +98,17 @@
   - `$ docker image rm <image-id / image-name>`
 
     <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p><img src="assets/image004.png" /></p>
-    <p> </p></th>
-    </tr>
-    </thead>
-    <tbody>
-    </tbody>
+      <colgroup>
+        <col style="width: 100%" />
+      </colgroup>
+      <thead>
+        <tr class="header">
+          <th>
+            <p><img src="assets/image004.png" /></p>
+            <p> </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
     </table>
