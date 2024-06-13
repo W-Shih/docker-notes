@@ -1,2 +1,5 @@
 # vs code files
 .vscode/*
+
+# local use only
+_To-Dos.md
