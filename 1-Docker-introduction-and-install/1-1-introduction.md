@@ -18,6 +18,8 @@
     - 标准化
     - 轻量级
     - 易移植
+  <!-- TODO -->
+  <!-- Add/link `部署 image 到 dev 伺服器上 (DigitalOcean)` note here -->
   - 部署 image 到 dev 伺服器上 (DigitalOcean) - My another note
     - 雲端平台只有在開機器的過程有些不同. 只要是用 docker 部屬, 部屬的過程都是一樣的.
 - Linux Container 容器
