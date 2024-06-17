@@ -33,7 +33,6 @@
         <tbody>
         </tbody>
       </table>
-
   - 動態顯示
     - `$ docker container logs` **`-f`** `<container_id / container_name>`
       <table>
@@ -89,16 +88,11 @@
 ### 交互式進入一個已經在後台運行的 detached container (非常常用!!!) [[↑](#容器的交互式模式-非常常用)]
 
 - 交互式進入一個已經在後台運行的 detached container
-
   - 這是一個非常常用的命令：
-
     - `＄ docker` **`exec -it`** `<container_id / container_name>` `<欲執行的命令>`
     - `＄ docker exec -it <container_id / container_name> sh`
-
       - `-i` -- 可以以輸入進行交互
-
       - `-t` -- 終端交互
-
     - 如果**退出交互式**, 不會停止創建 container 時的腳本, 所以**不會 stop container**
   - 效果
     <table>
