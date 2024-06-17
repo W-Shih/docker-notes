@@ -12,7 +12,7 @@
     - [批量停止 \[↑\]](#批量停止-)
     - [批量删除 \[↑\]](#批量删除-)
     - [強制刪除運行中的容器 \[↑\]](#強制刪除運行中的容器-)
-    - [清理，删除停止的容器，不用的 image or volume \[↑\]](#清理删除停止的容器不用的-image-or-volume-)
+    - [清理，删除停止的容器，不用的 image, network or volume \[↑\]](#清理删除停止的容器不用的-image-network-or-volume-)
 
 ### 批量停止 [[↑](#命令行小技巧之批量操作)]
 
@@ -64,11 +64,11 @@
       </tbody>
     </table>
 
-### 清理，删除停止的容器，不用的 image or volume [[↑](#命令行小技巧之批量操作)]
+### 清理，删除停止的容器，不用的 image, network or volume [[↑](#命令行小技巧之批量操作)]
 
 - `$ docker system prune -a -f`
   - `$ docker system prune -f`
-    - 可以快速对系统进行清理，删除停止的容器，不用的image，等等
+    - 可以快速对系统进行清理，删除停止的容器，不用的image，不用的 network 等等
 
 - `$ docker volume prune -f`
   - 將沒有在使用的 volume 刪除
