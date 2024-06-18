@@ -66,8 +66,8 @@
     </tbody>
   </table>
 
-  - 也可以直接在 WSL 2 裡面直接安裝 docker client & server
-    - WSL 2 就相當於是一個 Linux 系統, 所以可以直接同時安裝 docker client & server
+- 也可以直接在 WSL 2 裡面直接安裝 docker client & server
+  - WSL 2 就相當於是一個 Linux 系統, 所以可以直接同時安裝 docker client & server
 
 ### MAC 中 docker engine 的 Linux 是怎麼來的? [[↑](#windowsmac-是如何運行-docker-engine-的)]
 
