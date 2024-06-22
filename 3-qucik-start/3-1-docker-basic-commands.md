@@ -1,13 +1,13 @@
 <!-- This md file is originally converted from onenote -->
 
-# [认识一下Docker的命令行](https://dockertips.readthedocs.io/en/latest/container-quickstart/docker-cli-intro.html)
+# [認識一下Docker的命令行](https://dockertips.readthedocs.io/en/latest/container-quickstart/docker-cli-intro.html)
 
 2023年2月11日
 上午 02:44
 
-## Contents [[↑](#认识一下docker的命令行)]
+## Contents [[↑](#認識一下docker的命令行)]
 
-- [认识一下Docker的命令行](#认识一下docker的命令行)
+- [認識一下Docker的命令行](#認識一下docker的命令行)
   - [Contents \[↑\]](#contents-)
     - [docker version \[↑\]](#docker-version-)
     - [docker info \[↑\]](#docker-info-)
@@ -15,7 +15,7 @@
     - [docker container \[↑\]](#docker-container-)
     - [docker image \[↑\]](#docker-image-)
 
-### docker version [[↑](#认识一下docker的命令行)]
+### docker version [[↑](#認識一下docker的命令行)]
 
 - `$ docker version`
 
@@ -39,7 +39,7 @@
     </tbody>
   </table>
 
-### docker info [[↑](#认识一下docker的命令行)]
+### docker info [[↑](#認識一下docker的命令行)]
 
 - `$ docker info`
 
@@ -59,7 +59,7 @@
       </tbody>
     </table>
 
-### docker [[↑](#认识一下docker的命令行)]
+### docker [[↑](#認識一下docker的命令行)]
 
 - `$ docker`
 
@@ -83,7 +83,7 @@
           </tbody>
         </table>
 
-### docker container [[↑](#认识一下docker的命令行)]
+### docker container [[↑](#認識一下docker的命令行)]
 
 - `$ docker container --help`
   - 查看一級命令的使用方式
@@ -93,7 +93,7 @@
     - `$ docker container ps`
     - `$ docker container ps -a`
 
-### docker image [[↑](#认识一下docker的命令行)]
+### docker image [[↑](#認識一下docker的命令行)]
 
 - `$ docker image --help`
   - `$ docker image ls`

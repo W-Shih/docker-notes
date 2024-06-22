@@ -10,9 +10,9 @@
 - [命令行小技巧之批量操作](#命令行小技巧之批量操作)
   - [Contents \[↑\]](#contents-)
     - [批量停止 \[↑\]](#批量停止-)
-    - [批量删除 \[↑\]](#批量删除-)
+    - [批量刪除 \[↑\]](#批量刪除-)
     - [強制刪除運行中的容器 \[↑\]](#強制刪除運行中的容器-)
-    - [清理，删除停止的容器，不用的 image, network or volume \[↑\]](#清理删除停止的容器不用的-image-network-or-volume-)
+    - [清理，刪除停止的容器，不用的 image, network or volume \[↑\]](#清理刪除停止的容器不用的-image-network-or-volume-)
 
 ### 批量停止 [[↑](#命令行小技巧之批量操作)]
 
@@ -23,9 +23,9 @@
   - 方法2
     - `$ docker container stop $(docker container ls -aq)`
 
-### 批量删除 [[↑](#命令行小技巧之批量操作)]
+### 批量刪除 [[↑](#命令行小技巧之批量操作)]
 
-- 批量删除
+- 批量刪除
   - `$ docker container rm $(docker container ls -aq)`
 
 ### 強制刪除運行中的容器 [[↑](#命令行小技巧之批量操作)]
@@ -64,11 +64,11 @@
       </tbody>
     </table>
 
-### 清理，删除停止的容器，不用的 image, network or volume [[↑](#命令行小技巧之批量操作)]
+### 清理，刪除停止的容器，不用的 image, network or volume [[↑](#命令行小技巧之批量操作)]
 
 - `$ docker system prune -a -f`
   - `$ docker system prune -f`
-    - 可以快速对系统进行清理，删除停止的容器，不用的image，不用的 network 等等
+    - 可以快速對系統進行清理，刪除停止的容器，不用的image，不用的 network 等等
 
 - `$ docker volume prune -f`
   - 將沒有在使用的 volume 刪除

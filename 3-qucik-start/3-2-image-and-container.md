@@ -1,18 +1,18 @@
 <!-- This md file is originally converted from onenote -->
 
-# [镜像和容器](https://dockertips.readthedocs.io/en/latest/container-quickstart/image_vs_container.html)
+# [鏡像和容器](https://dockertips.readthedocs.io/en/latest/container-quickstart/image_vs_container.html)
 
 2023年2月11日
 下午 12:46
 
-## Contents [[↑](#镜像和容器)]
+## Contents [[↑](#鏡像和容器)]
 
-- [镜像和容器](#镜像和容器)
+- [鏡像和容器](#鏡像和容器)
   - [Contents \[↑\]](#contents-)
     - [Image \[↑\]](#image-)
     - [Container \[↑\]](#container-)
 
-### Image [[↑](#镜像和容器)]
+### Image [[↑](#鏡像和容器)]
 
 - Image
 
@@ -32,7 +32,7 @@
     </tbody>
   </table>
 
-### Container [[↑](#镜像和容器)]
+### Container [[↑](#鏡像和容器)]
 
 - Container
 

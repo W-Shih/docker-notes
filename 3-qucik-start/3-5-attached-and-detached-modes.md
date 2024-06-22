@@ -9,19 +9,19 @@
 
 - [容器的 attached 和 detached 模式](#容器的-attached-和-detached-模式)
   - [Contents \[↑\]](#contents-)
-    - [attach 模式 - 前台執行 \[↑\]](#attach-模式---前台執行-)
-    - [detached 模式 - 後台執行 \[↑\]](#detached-模式---後台執行-)
+    - [attach 模式 - 前臺執行 \[↑\]](#attach-模式---前臺執行-)
+    - [detached 模式 - 後臺執行 \[↑\]](#detached-模式---後臺執行-)
     - [Re-attach \[↑\]](#re-attach-)
     - [總結 \[↑\]](#總結-)
 
-### attach 模式 - 前台執行 [[↑](#容器的-attached-和-detached-模式)]
+### attach 模式 - 前臺執行 [[↑](#容器的-attached-和-detached-模式)]
 
 - attach 模式
   - `$ docker container run -p 80:80 nginx`
-  - Attached 模式 - 前台執行
-    - 會將 log 打印在前台
-    - 所謂 attach 指的是 container 的 IO attached to 本地前台的 IO, 使 container 與 本地前台的 IO 之間可以相互通信
-    - 一般情况不推荐使用
+  - Attached 模式 - 前臺執行
+    - 會將 log 打印在前臺
+    - 所謂 attach 指的是 container 的 IO attached to 本地前臺的 IO, 使 container 與 本地前臺的 IO 之間可以相互通信
+    - 一般情況不推薦使用
       <table>
         <colgroup>
           <col style="width: 100%" />
@@ -38,17 +38,17 @@
         </tbody>
       </table>
 
-- 一般情况來說, attached 模式都是對 IO attached.  
+- 一般情況來說, attached 模式都是對 IO attached.  
   但 windows 比較奇怪, 只對 O attached, 而沒有對 I attached. 所以在 windows 無法使用 Ctrl + C 將運行的 container 停止.
 
-### detached 模式 - 後台執行 [[↑](#容器的-attached-和-detached-模式)]
+### detached 模式 - 後臺執行 [[↑](#容器的-attached-和-detached-模式)]
 
 - detach 模式
   - `$ docker container run -d -p 80:80 nginx`
-  - detached 模式 - 後台執行
-    - 不會將 log 打印在前台
-    - 所謂 detach 指的是 container 與 本地前台的 IO 之間沒有相互連接
-    - 一般情况推荐使用
+  - detached 模式 - 後臺執行
+    - 不會將 log 打印在前臺
+    - 所謂 detach 指的是 container 與 本地前臺的 IO 之間沒有相互連接
+    - 一般情況推薦使用
       <table>
         <colgroup>
           <col style="width: 100%" />
