@@ -1,3 +1,5 @@
+<!-- This md file is originally converted from onenote -->
+
 # [4-2 鏡像的獲取方式](https://dockertips.readthedocs.io/en/latest/docker-image/get-image.html)
 
 2023年2月12日
