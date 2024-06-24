@@ -107,7 +107,7 @@
           <p><img src="assets/003_4-4_镜像的基本操作_005.png" /></p>
           <ul class="incremental">
             <li>
-              <p><a href="../3-qucik-start/3-2-image-and-container.md">镜像和容器</a>
+              <p><a href="../3-quick-start/3-2-image-and-container.md">镜像和容器</a>
               </p>
             </li>
           </ul>
