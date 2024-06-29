@@ -125,20 +125,20 @@
   - 可以將一個 container commits 成一個 image.
   - 也就是說將 container 的 read-write layer commits 成一個 read-only layer.
     <table>
-    <colgroup>
-      <col style="width: 100%" />
-    </colgroup>
-    <thead>
-      <tr class="header">
-        <th>
-          <p><img src="assets/007_4-8_通過_commit_創建鏡像_(少用)_008.png" /></p>
-          <p> </p>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+      <colgroup>
+        <col style="width: 100%" />
+      </colgroup>
+      <thead>
+        <tr class="header">
+          <th>
+            <p><img src="assets/007_4-8_通過_commit_創建鏡像_(少用)_008.png" /></p>
+            <p> </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
 
 #### Container commit 模擬 Dockerfile [[↑](#4-8-通過-commit-創建鏡像-少用)]
 
