@@ -79,23 +79,25 @@
               </ol>
             </li>
           </ul>
-          <table>
-            <colgroup>
-              <col style="width: 100%" />
-            </colgroup>
-            <thead>
-              <tr class="header">
-                <th>
-                  <p><img src="assets/001_7-2_網路基礎知識回顧_002.png" /></p>
-                  <blockquote>
-                    <p> </p>
-                  </blockquote>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-            </tbody>
-          </table>
+          <div style="margin-left: 6em;">
+            <table>
+              <colgroup>
+                <col style="width: 100%" />
+              </colgroup>
+              <thead>
+                <tr class="header">
+                  <th>
+                    <p><img src="assets/001_7-2_網路基礎知識回顧_002.png" /></p>
+                    <blockquote>
+                      <p> </p>
+                    </blockquote>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
         </th>
       </tr>
     </thead>
