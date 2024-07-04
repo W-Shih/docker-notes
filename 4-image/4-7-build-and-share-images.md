@@ -110,7 +110,7 @@
 #### Push to registry, e.g. dockerhub [[↑](#4-7-鏡像的構建和分享)]
 
 - 需要有 dockerhub 帳號
-- Image 的命名方式必須為 dockerhub_account_id/image_name
+- Image 的命名方式必須為 `dockerhub_account_id/image_name`
   - 方法1 - build image 時, 起一個名字
     <table>
       <colgroup>
