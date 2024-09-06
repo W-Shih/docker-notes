@@ -9,28 +9,42 @@
 
 - [5-2 如何選擇基礎鏡像](#5-2-如何選擇基礎鏡像)
   - [Contents \[↑\]](#contents-)
-    - [寫 Dockerfile 的第一步 - 選擇基礎鏡像 \[↑\]](#寫-dockerfile-的第一步---選擇基礎鏡像-)
+    - [寫 `Dockerfile` 的第一步 - 選擇基礎鏡像 `FROM` \[↑\]](#寫-dockerfile-的第一步---選擇基礎鏡像-from-)
     - [選擇原則 \[↑\]](#選擇原則-)
       - [安全性的考量 \[↑\]](#安全性的考量-)
       - [穩定性的考量 \[↑\]](#穩定性的考量-)
       - [網路資源的考量 (push \& pull) \[↑\]](#網路資源的考量-push--pull-)
 
-### 寫 Dockerfile 的第一步 - 選擇基礎鏡像 [[↑](#5-2-如何選擇基礎鏡像)]
+### 寫 `Dockerfile` 的第一步 - 選擇基礎鏡像 `FROM` [[↑](#5-2-如何選擇基礎鏡像)]
 
-- 選擇基礎鏡像就是選擇 Base Image
+- 選擇基礎鏡像: `FROM <base_image>`
   <table>
     <colgroup>
       <col style="width: 100%" />
     </colgroup>
     <thead>
       <tr class="header">
-        <th>
+        <td>
           <p><img src="assets/001_5-2_如何選擇基礎鏡像_000.png" /></p>
-          <p> </p>
-        </th>
+          <ul class="incremental">
+            <li>
+              <p>從 Docker Hub 拉取鏡像</p>
+            </li>
+          </ul>
+        </td>
       </tr>
     </thead>
     <tbody>
+      <tr class="odd">
+        <td>
+          <p><img src="assets/001_5-2_如何選擇基礎鏡像_003.png" /></p>
+          <ul class="incremental">
+            <li>
+              <p>從 RED HAT - quay.io 拉取鏡像</p>
+            </li>
+          </ul>
+        </td>
+      </tr>
     </tbody>
   </table>
 
@@ -76,7 +90,6 @@
         <th>
           <p><img src="assets/001_5-2_如何選擇基礎鏡像_002.png" /></p>
           <blockquote>
-            <p> </p>
           </blockquote>
         </th>
       </tr>
