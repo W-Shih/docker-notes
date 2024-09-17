@@ -86,20 +86,20 @@
 - 運行 flask
   - 設定環境變量
     - Mac/Linux
-    <table>
-      <colgroup>
-        <col style="width: 100%" />
-      </colgroup>
-      <thead>
-        <tr class="header">
-          <th>
-            <p><img src="assets/012_5-8_建構一個_Python_Flask_鏡像_004.png" /></p>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
+      <table>
+        <colgroup>
+          <col style="width: 100%" />
+        </colgroup>
+        <thead>
+          <tr class="header">
+            <th>
+              <p><img src="assets/012_5-8_建構一個_Python_Flask_鏡像_004.png" /></p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
 
     - Windows Power shell
       <table>
@@ -258,4 +258,4 @@
   </table>
 
 - `EXPOSE 5000` 的補充
-  - [7-11 端口轉發和 Dockerfile](onenote:Ch7-Docker%20的網絡.one#7-11%20端口轉發和%20Dockerfile&section-id={9133605D-EF20-47B1-AED0-9FBCA7F58CC9}&page-id={8F6FF8C0-ADB3-4BF7-9E70-F8678BEFE66D}&end&base-path=https://d.docs.live.net/a0b8c23463a6f9b5/文件/IT%20技術/DevOps/Docker%5eJ%20K8S/Docker容器技術從入門到精通/Docker)
+  - [7-11 端口轉發和 Dockerfile](../7-docker-network/7-11-port-forwarding-and-dockerfile.md)
