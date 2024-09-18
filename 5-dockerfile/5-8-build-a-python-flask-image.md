@@ -1,4 +1,3 @@
-
 <!-- This md file is originally converted from onenote -->
 
 # [5-8 建構一個 Python-Flask 鏡像](https://dockertips.readthedocs.io/en/latest/dockerfile-guide/python-flask.html)
