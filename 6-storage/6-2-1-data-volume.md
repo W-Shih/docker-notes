@@ -17,7 +17,7 @@
 
 ### 預備知識 [[↑](#6-2-data-volume)]
 
-- [鏡像和容器](..\3-quick-start\3-2-image-and-container.md)
+- [鏡像和容器](../3-quick-start/3-2-image-and-container.md)
 - [通過 Docker container 執行計劃任務](https://dockertips.readthedocs.io/en/latest/docker-blog/docker-cron.html)
 
 ### 測試案例 [[↑](#6-2-data-volume)]

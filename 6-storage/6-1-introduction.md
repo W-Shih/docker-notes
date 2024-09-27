@@ -16,7 +16,7 @@
 ### Docker 的存儲 [[↑](#6-1-介紹)]
 
 - 實際上想要去解決的問題就是數據的一個持久化
-- 默認情況下，在運行中的容器裡創建的文件，被保存在一個**可寫的容器層** - [鏡像和容器](..\3-quick-start\3-2-image-and-container.md)
+- 默認情況下，在運行中的容器裡創建的文件，被保存在一個**可寫的容器層** - [鏡像和容器](../3-quick-start/3-2-image-and-container.md)
   <table>
     <colgroup>
       <col style="width: 100%" />
