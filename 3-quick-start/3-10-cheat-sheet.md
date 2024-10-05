@@ -69,13 +69,13 @@
   - 功能：列出所有容器，包括正在運行的和已退出的容器。
   - 出現章節：[3-4 創建第一個容器](./3-4-bulk-comands-for-containers.md), [3-6 容器的attached和detached模式](./3-6-interact-with-container.md)
 
-- `docker container remove <container_id>/<container_name>`
+- `docker container rm <container_id>/<container_name>`
   - 功能：刪除指定的 Docker 容器。
   - 說明：
     - `<container_id>` 或 `<container_name>` 是要刪除的容器的 ID 或名稱。
   - 出現章節：[3-4 創建第一個容器](./3-4-bulk-comands-for-containers.md), [3-5 命令行小技巧-批量操作](./3-5-attached-and-detached-modes.md)
 
-- `docker container remove -f <container_id>/<container_name>`
+- `docker container rm -f <container_id>/<container_name>`
   - 功能：強制刪除指定的 Docker 容器，即使容器正在運行。
   - 說明：
     - `<container_id>` 或 `<container_name>` 是要刪除的容器的 ID 或名稱。
@@ -120,8 +120,8 @@
 | 容器操作 | `docker container run <image_name>` | 創建並運行一個 Docker 容器 | [3-4 創建第一個容器](./3-4-bulk-comands-for-containers.md), [3-6 容器的attached和detached模式](./3-6-interact-with-container.md), [3-7 容器的交互模式](./3-7-how-Windows-and-Mac-run-docker-engine.md), [3-9 容器和虛擬機](./3-9-behind-the-scenes-when-creating-container.md) |
 |  | `docker container stop <container_id>/<container_name>` | 停止指定的 Docker 容器 | [3-4 創建第一個容器](./3-4-bulk-comands-for-containers.md), [3-6 容器的attached和detached模式](./3-6-interact-with-container.md) |
 |  | `docker container ls -a` | 列出所有容器，包括正在運行的和已退出的容器 | [3-4 創建第一個容器](./3-4-bulk-comands-for-containers.md), [3-6 容器的attached和detached模式](./3-6-interact-with-container.md) |
-|  | `docker container remove <container_id>/<container_name>` | 刪除指定的 Docker 容器 | [3-4 創建第一個容器](./3-4-bulk-comands-for-containers.md), [3-5 命令行小技巧-批量操作](./3-5-attached-and-detached-modes.md) |
-|  | `docker container remove -f <container_id>/<container_name>` | 強制刪除指定的 Docker 容器 | [3-5 命令行小技巧-批量操作](./3-5-attached-and-detached-modes.md) |
+|  | `docker container rm <container_id>/<container_name>` | 刪除指定的 Docker 容器 | [3-4 創建第一個容器](./3-4-bulk-comands-for-containers.md), [3-5 命令行小技巧-批量操作](./3-5-attached-and-detached-modes.md) |
+|  | `docker container rm -f <container_id>/<container_name>` | 強制刪除指定的 Docker 容器 | [3-5 命令行小技巧-批量操作](./3-5-attached-and-detached-modes.md) |
 |  | `docker container logs <container_id>/<container_name>` | 查看指定容器的日誌 | [3-7 容器的交互模式](./3-7-how-Windows-and-Mac-run-docker-engine.md) |
 |  | `docker container logs -f <container_id>/<container_name>` | 動態跟蹤指定容器的日誌 | [3-7 容器的交互模式](./3-7-how-Windows-and-Mac-run-docker-engine.md) |
 |  | `docker container exec -it <container_id>/<container_name> <command>` | 以交互模式在正在運行的容器中執行命令 | [3-7 容器的交互模式](./3-7-how-Windows-and-Mac-run-docker-engine.md), [3-9 容器和虛擬機](./3-9-behind-the-scenes-when-creating-container.md) |
