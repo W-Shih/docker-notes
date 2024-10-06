@@ -36,7 +36,7 @@
 - 如果是 Linux 的話, 則需要自己去安裝
   - 安裝的辦法有主要有兩個
 
-    1. 直接去 [GitHub - Releases · docker/compose](https://github.com/docker/compose/releases) 上面下載一個編譯好的 `docker-Compose` 二進制文件
+    1. 直接去 [GitHub - Releases · docker/compose](https://github.com/docker/compose/releases) 上面下載一個編譯好的 `docker-compose` 二進制文件
 
         ```bash
         $ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -45,7 +45,7 @@
         docker-compose version 1.29.2, build 5becea4c
         ```
 
-    2. 使用 `pip` 去安裝 `docker-Compose`
+    2. 使用 `pip` 去安裝 `docker-compose`
         - `$` **`pip install docker-compose`**
-          - ~~`docker-Compose` 實際上是一個使用 Python 編寫的一個工具~~
+          - ~~`docker-compose` 實際上是一個使用 Python 編寫的一個工具~~
           - Python 的這些軟件, 都可以通過 `pip` 去安裝
