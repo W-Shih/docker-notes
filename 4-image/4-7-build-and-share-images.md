@@ -28,7 +28,6 @@
           <tr class="header">
             <th>
               <p><img src="assets/006_4-7_鏡像的構建和分享_011.png" /></p>
-              <p> </p>
             </th>
           </tr>
         </thead>
@@ -60,7 +59,6 @@
           <tr class="even">
             <td>
               <p><img src="assets/006_4-7_鏡像的構建和分享_001.png" /></p>
-              <p> </p>
             </td>
           </tr>
         </tbody>
@@ -75,7 +73,6 @@
         <tr class="header">
           <th>
             <p><img src="assets/006_4-7_鏡像的構建和分享_002.png" /></p>
-            <p> </p>
           </th>
         </tr>
       </thead>
@@ -92,7 +89,23 @@
         <tr class="header">
           <th>
             <p><img src="assets/006_4-7_鏡像的構建和分享_003.png" /></p>
-            <p> </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+- 注意事項
+  - `docker image build` 預設使用的是當前目錄下的 `Dockerfile` 文件來構建. 如果用別的名字的話, 需要用 `-f` 來指定路徑和檔名.
+    <table>
+      <colgroup>
+        <col style="width: 100%" />
+      </colgroup>
+      <thead>
+        <tr class="header">
+          <th>
+            <p><img src="assets/007_4-7_鏡像的構建和分享_005_.png" /></p>
           </th>
         </tr>
       </thead>
@@ -120,7 +133,6 @@
         <tr class="header">
           <th>
             <p><img src="assets/006_4-7_鏡像的構建和分享_004.png" /></p>
-            <p> </p>
           </th>
         </tr>
       </thead>
@@ -128,7 +140,6 @@
         <tr class="odd">
           <td>
             <p><img src="assets/006_4-7_鏡像的構建和分享_005.png" /></p>
-            <p> </p>
           </td>
         </tr>
         <tr class="even">
@@ -158,7 +169,6 @@
             <tr class="header">
               <th>
                 <p><img src="assets/006_4-7_鏡像的構建和分享_007.png" /></p>
-                <p> </p>
               </th>
             </tr>
           </thead>
@@ -177,7 +187,6 @@
           <tr class="header">
             <th>
               <p><img src="assets/006_4-7_鏡像的構建和分享_008.png" /></p>
-              <p> </p>
             </th>
           </tr>
         </thead>
@@ -194,7 +203,6 @@
         <tr class="header">
           <th>
             <p><img src="assets/006_4-7_鏡像的構建和分享_009.png" /></p>
-            <p> </p>
           </th>
         </tr>
       </thead>
@@ -211,7 +219,6 @@
         <tr class="header">
           <th>
             <p><img src="assets/006_4-7_鏡像的構建和分享_010.png" /></p>
-            <p> </p>
           </th>
         </tr>
       </thead>
