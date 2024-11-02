@@ -10,11 +10,15 @@
 - [4-7 鏡像的構建和分享](#4-7-鏡像的構建和分享)
   - [Contents \[↑\]](#contents-)
     - [Build image \[↑\]](#build-image-)
+      - [構建 \[↑\]](#構建-)
+      - [注意事項 \[↑\]](#注意事項-)
     - [Share image \[↑\]](#share-image-)
       - [導出成一個文件 \[↑\]](#導出成一個文件-)
       - [Push to registry, e.g. dockerhub \[↑\]](#push-to-registry-eg-dockerhub-)
 
 ### Build image [[↑](#4-7-鏡像的構建和分享)]
+
+#### 構建 [[↑](#4-7-鏡像的構建和分享)]
 
 - `$ docker image build -t <image_name>:<tag> <dir_path_to_Dockerfile>`
   - `$ docker image build -t postgres:init-tiny-url-db .`
@@ -96,22 +100,23 @@
       </tbody>
     </table>
 
-- 注意事項
-  - `docker image build` 預設使用的是當前目錄下的 `Dockerfile` 文件來構建. 如果用別的名字的話, 需要用 `-f` 來指定路徑和檔名.
-    <table>
-      <colgroup>
-        <col style="width: 100%" />
-      </colgroup>
-      <thead>
-        <tr class="header">
-          <th>
-            <p><img src="assets/007_4-7_鏡像的構建和分享_005_.png" /></p>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
+#### 注意事項 [[↑](#4-7-鏡像的構建和分享)]
+
+- `docker image build` 預設使用的是當前目錄下的 `Dockerfile` 文件來構建. 如果用別的名字的話, 需要用 `-f` 來指定路徑和檔名.
+  <table>
+    <colgroup>
+      <col style="width: 100%" />
+    </colgroup>
+    <thead>
+      <tr class="header">
+        <th>
+          <p><img src="assets/007_4-7_鏡像的構建和分享_005_.png" /></p>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
 
 ### Share image [[↑](#4-7-鏡像的構建和分享)]
 
