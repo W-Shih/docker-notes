@@ -1,20 +1,20 @@
 <!-- This md file is originally converted from onenote -->
 
-# [命令行小技巧之批量操作](https://dockertips.readthedocs.io/en/latest/container-quickstart/container-cli-tips.html)
+# [3-4 命令行小技巧之批量操作](https://dockertips.readthedocs.io/en/latest/container-quickstart/container-cli-tips.html)
 
 2023年2月11日
 下午 01:27
 
-## Contents [[↑](#命令行小技巧之批量操作)]
+## Contents [[↑](#3-4-命令行小技巧之批量操作)]
 
-- [命令行小技巧之批量操作](#命令行小技巧之批量操作)
+- [3-4 命令行小技巧之批量操作](#3-4-命令行小技巧之批量操作)
   - [Contents \[↑\]](#contents-)
     - [批量停止 \[↑\]](#批量停止-)
     - [批量刪除 \[↑\]](#批量刪除-)
     - [強制刪除運行中的容器 \[↑\]](#強制刪除運行中的容器-)
     - [清理，刪除停止的容器，不用的 image, network or volume \[↑\]](#清理刪除停止的容器不用的-image-network-or-volume-)
 
-### 批量停止 [[↑](#命令行小技巧之批量操作)]
+### 批量停止 [[↑](#3-4-命令行小技巧之批量操作)]
 
 - 批量停止
   - 方法1
@@ -23,12 +23,12 @@
   - 方法2
     - `$ docker container stop $(docker container ls -aq)`
 
-### 批量刪除 [[↑](#命令行小技巧之批量操作)]
+### 批量刪除 [[↑](#3-4-命令行小技巧之批量操作)]
 
 - 批量刪除
   - `$ docker container rm $(docker container ls -aq)`
 
-### 強制刪除運行中的容器 [[↑](#命令行小技巧之批量操作)]
+### 強制刪除運行中的容器 [[↑](#3-4-命令行小技巧之批量操作)]
 
 - 強制刪除運行中的容器
   - `$ docker container rm <container_id / container_name> -f`
@@ -64,7 +64,7 @@
       </tbody>
     </table>
 
-### 清理，刪除停止的容器，不用的 image, network or volume [[↑](#命令行小技巧之批量操作)]
+### 清理，刪除停止的容器，不用的 image, network or volume [[↑](#3-4-命令行小技巧之批量操作)]
 
 - `$ docker system prune -a -f`
   - `$ docker system prune -f`
