@@ -25,7 +25,6 @@
       <tr class="header">
         <th>
           <p><img src="assets/001_7-2_網路基礎知識回顧_000.png" /></p>
-          <p> </p>
         </th>
       </tr>
     </thead>
@@ -60,7 +59,7 @@
               <p>tcp 的三次握手進行連接</p>
               <ol class="incremental" type="i">
                 <li>
-                  <p>在這個連接的過程當中, 有一個非常重要的概念 - <strong>NAT (Network Address Translation )</strong></p>
+                  <p>在這個連接的過程當中, 有一個非常重要的概念 - <strong>NAT (Network Address Translation)</strong></p>
                   <ul class="incremental">
                     <li>
                       <p>我們的電腦的 ip 地址一般都是一個 192.168 這樣的一些無法在公網上面進行傳播的私有 ip 地址</p>
@@ -88,9 +87,6 @@
                 <tr class="header">
                   <th>
                     <p><img src="assets/001_7-2_網路基礎知識回顧_002.png" /></p>
-                    <blockquote>
-                      <p> </p>
-                    </blockquote>
                   </th>
                 </tr>
               </thead>
@@ -116,7 +112,6 @@
       <tr class="header">
         <th>
           <p><img src="assets/001_7-2_網路基礎知識回顧_003.png" /></p>
-          <p> </p>
         </th>
       </tr>
     </thead>
