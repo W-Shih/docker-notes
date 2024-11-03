@@ -45,6 +45,27 @@
         docker-compose version 1.29.2, build 5becea4c
         ```
 
+        - 上面 `$ sudo curl -L "<url>" -o /usr/local/bin/docker-compose` 中的 `<url>` 是從 [GitHub - Releases · docker/compose](https://github.com/docker/compose/releases) 上面找一個想要的版本的 `docker-compose` 的二進制文件的下載地址
+          <table>
+            <colgroup>
+              <col style="width: 100%" />
+            </colgroup>
+            <thead>
+              <tr class="header">
+                <th>
+                  <p><img src="assets/001_8-2_docker-compose_的安裝_001.png" /></p>
+                  <ul class="incremental">
+                    <li>
+                      <p>先隨便從 Assets 中選一個按滑鼠右鍵點, 並 "Copy link address", 再從該網址修改成命令所需要的 &lt;url&gt;</p>
+                    </li>
+                  </ul>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+
     2. 使用 `pip` 去安裝 `docker-compose`
         - `$` **`pip install docker-compose`**
           - ~~`docker-compose` 實際上是一個使用 Python 編寫的一個工具~~
