@@ -32,7 +32,6 @@
 
 - 強制刪除運行中的容器
   - `$ docker container rm <container_id / container_name> -f`
-
     <table>
       <colgroup>
         <col style="width: 100%" />
@@ -54,9 +53,6 @@
                 </ul>
               </li>
             </ul>
-            <blockquote>
-              <p> </p>
-            </blockquote>
           </th>
         </tr>
       </thead>
