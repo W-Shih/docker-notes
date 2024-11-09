@@ -1,13 +1,13 @@
 <!-- This md file is originally converted from onenote -->
 
-# [創建我們第一個容器](https://dockertips.readthedocs.io/en/latest/container-quickstart/container-basic.html)
+# [3-4 創建我們第一個容器](https://dockertips.readthedocs.io/en/latest/container-quickstart/container-basic.html)
 
 2023年2月11日
 下午 12:57
 
-## Contents [[↑](#創建我們第一個容器)]
+## Contents [[↑](#3-4-創建我們第一個容器)]
 
-- [創建我們第一個容器](#創建我們第一個容器)
+- [3-4 創建我們第一個容器](#3-4-創建我們第一個容器)
   - [Contents \[↑\]](#contents-)
     - [容器的基本操作 \[↑\]](#容器的基本操作-)
       - [`$ docker container run nginx` \[↑\]](#-docker-container-run-nginx-)
@@ -15,7 +15,7 @@
       - [`$ docker container ls` \[↑\]](#-docker-container-ls-)
       - [`$ docker container rm <container_id / container_name>` \[↑\]](#-docker-container-rm-container_id--container_name-)
 
-### 容器的基本操作 [[↑](#創建我們第一個容器)]
+### 容器的基本操作 [[↑](#3-4-創建我們第一個容器)]
 
 - 容器的基本操作
 
@@ -27,7 +27,6 @@
       <tr class="header">
         <th>
           <p><img src="assets/002_创建我们第一个容器_000.png" /></p>
-          <p> </p>
         </th>
       </tr>
     </thead>
@@ -35,7 +34,7 @@
     </tbody>
   </table>
 
-#### `$ docker container run nginx` [[↑](#創建我們第一個容器)]
+#### `$ docker container run nginx` [[↑](#3-4-創建我們第一個容器)]
 
 - `$ docker container run nginx`
 
@@ -64,17 +63,16 @@
       <tr class="odd">
         <td>
           <p><img src="assets/002_创建我们第一个容器_002.png" /></p>
-          <p> </p>
         </td>
       </tr>
     </tbody>
   </table>
 
-#### `$ docker container stop <container_id / container_name>` [[↑](#創建我們第一個容器)]
+#### `$ docker container stop <container_id / container_name>` [[↑](#3-4-創建我們第一個容器)]
 
 - `$ docker container stop <container_id / container_name>`
 
-#### `$ docker container ls` [[↑](#創建我們第一個容器)]
+#### `$ docker container ls` [[↑](#3-4-創建我們第一個容器)]
 
 - `$ docker container ls`
 
@@ -88,6 +86,6 @@
 
   - 建議用 docker 新的命令格式，也就是**完整格式**; 不建議使用命令簡寫.
 
-#### `$ docker container rm <container_id / container_name>` [[↑](#創建我們第一個容器)]
+#### `$ docker container rm <container_id / container_name>` [[↑](#3-4-創建我們第一個容器)]
 
 - `$ docker container rm <container_id / container_name>`
