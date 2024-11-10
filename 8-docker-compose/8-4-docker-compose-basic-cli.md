@@ -175,7 +175,7 @@
 - 要另外執行以下命令來刪除 `network`
   - `$ docker network rm` 或是
   - `$ docker system prune -f` 去清理沒有使用的網絡或容器
-    - [3-4 命令行小技巧之批量操作](../3-quick-start/3-4-bulk-comands-for-containers.md#清理刪除停止的容器不用的-image-network-or-volume-)
+    - [3-5 命令行小技巧之批量操作](../3-quick-start/3-5-bulk-commands-for-containers.md#清理刪除停止的容器不用的-image-network-or-volume-)
 
 ### 更改 project name [[↑](#8-4-docker-compose-命令行基本使用)]
 
