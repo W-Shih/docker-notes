@@ -1,3 +1,5 @@
+<!-- This md file is originally converted from onenote -->
+
 # [8-9 水平擴展和負載均衡](https://dockertips.readthedocs.io/en/latest/docker-compose/compose-scale.html)
 
 2024年11月7日
